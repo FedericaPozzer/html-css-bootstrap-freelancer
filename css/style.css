@@ -1,3 +1,22 @@
-span {
+/* DEBUG */
+.container,
+.container-md,
+.container-xxl {
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+header > .row .col-4,
+header > .row .col-2 {
     background-color: palevioletred;
+    height: 2.5rem;
+    border: 1px solid black;
+}
+
+
+/* ************************** */
+
+header > .row {
+    height: 5rem;
+    background-color: #2c3e50;
 }
