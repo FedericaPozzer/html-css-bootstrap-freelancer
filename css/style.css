@@ -2,8 +2,7 @@
 .container,
 .container-md,
 .container-xxl {
-    background-color: aquamarine;
-    height: 100vh;
+    background-color: yellow;
 }
 
 header > .row .col-4,
@@ -13,10 +12,59 @@ header > .row .col-2 {
     border: 1px solid black;
 }
 
+.jumbotron .row {
+    border: 2px dotted black;
+}
+
+.img {
+    background-color: blue;
+    height: 180px;
+    width: 180px;
+}
+
+
+
+/* ********** */
+
+.bg-ac {
+    background-color: #1abc9c;
+}
+
+.bg-w {
+    background-color: #ffffff;
+}
+
+
 
 /* ************************** */
 
+/* Utils */
+
+h3 {
+    /* text-align: center; */
+}
+
+.mn {
+    margin: 0 -.8rem;
+}
+
+/* HEADER */
 header > .row {
     height: 5rem;
     background-color: #2c3e50;
 }
+
+
+.pino {
+    /* padding-bottom: 1rem; */
+    border-bottom: 1px solid black;
+}
+
+.footer-main {
+ background-color: #3a546d;
+}
+
+.footer-footer {
+    background-color: #2c3e50;
+}
+
