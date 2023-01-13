@@ -24,7 +24,7 @@ body {
 
 /* MAIN - jumbotron */
 
-main section * {
+main section * { /*non va con alcune??*/
  margin: .5rem 0;
 }
 
@@ -82,6 +82,13 @@ main section * {
     width: 100%;
     border: none;
     border-bottom: 1px solid black;
+}
+
+.contact-btn {
+   background-color: #1abc9c;
+   color: #ffffff;
+   padding: .5rem 1rem;
+   border-radius: .5rem;
 }
 
 
