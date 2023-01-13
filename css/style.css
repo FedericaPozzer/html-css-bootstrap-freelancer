@@ -70,8 +70,19 @@ main section * {
     font-size: 1.3rem;
 }
 
+/* MAIN contact */
 
+.contact input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
 
+.contact textarea {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+}
 
 
 /* .pino {
